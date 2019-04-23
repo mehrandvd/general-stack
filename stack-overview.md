@@ -2,21 +2,27 @@
 
 ## At a glance
 The proposed stack at a glance is:
-- **Database**: SQL Server (for relational cases), MongoDB (for NoSQL cases)
+- **Architecture**: Micro-service + lots of hmmm...
 - **Backend**: .NET Core, C#, EF Core, Autofac
+- **Database**: SQL Server (for relational cases), MongoDB (for NoSQL cases)
 - **Web Frontend**: TypeScript + (Angular or React or Vue)
 - **Mobile Frontend**: Xamarin, Prism
 
 As you can see (at a glance!) we heavily invest on C# and .NET Core as we believe they have a brilliant future. C# is a very well-formed language that its new features inspire lots of other languages. Picking C# eases our adoption with _WebAssembly_ in the near future as there is lot of investments in integrating C# and WebAssembly right now.
 
-## Database
-As in any modern architecture, we need to utilize both Relational databases and NoSql database, we suggest platforms for both. SQL Server for relational scenarios and MongoDB for NoSql scenarios.
+## Architecture
+We pick micro-service architecture because of its scalablity.
+We are NOT picking it because it allows us to use multiple stacks concurrently.
+In fact, **we are against technology diversity**.
 
 ## Backend
 .NET Core is super fast! In fact faster than any commercial platform so far. To prove it, you can check TechEmpower result for its last 3 rounds. The results are unbelivable!
 Using .NET Core enables the team to use C# as a language. If in some situations it is required to use a pure functional language, we can use F#.
 
 We prefer to deploy our server-side applications on linux, preferably on docker.
+
+## Database
+As in any modern architecture, we need to utilize both Relational databases and NoSql database, we suggest platforms for both. SQL Server for relational scenarios and MongoDB for NoSql scenarios.
 
 ## Web Frontend
 Although our current plan is to use TypeScript + (Angular or React or Vue), but as in a near future **WebAssembly** is getting ready and we believe there is lots of opportunities in it. We plan to bring it on the table soon. We sticked our eyes on technologies like **Blazor**, **Xamarin.WebAssembly** and **Uno.WebAssembly** which are actively working on bringing C# experience into the web with WebAssembly unbelievable performance.
