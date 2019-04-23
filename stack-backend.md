@@ -1,4 +1,4 @@
-# General Stack: Backend
+# Backend
 
 For backend we suggest:
 - Platform: .NET Core
