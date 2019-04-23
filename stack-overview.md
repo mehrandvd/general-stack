@@ -7,6 +7,8 @@ The proposed stack at a glance is:
 - **Web Frontend**: TypeScript + (Angular or React or Vue)
 - **Mobile Frontend**: Xamarin, Prism
 
+As you can see (at a glance!) we heavily invest on C# and .NET Core as we believe they have a brilliant future. C# is a very well-formed language that its new features inspire lots of other languages. Picking C# eases our adoption with _WebAssembly_ in the near future as there is lot of investments in integrating C# and WebAssembly right now.
+
 ## Database
 As in any modern architecture, we need to utilize both Relational databases and NoSql database, we suggest platforms for both. SQL Server for relational scenarios and MongoDB for NoSql scenarios.
 
