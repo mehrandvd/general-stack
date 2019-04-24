@@ -30,13 +30,14 @@ _[Issue #3: This table should be filled and referenced by TechEmpower website]_
 
 The more interesting point, is the fact that best performance benchmarks of .NET Core are achieved on _Linux_! So it is recommended to use Linux for server or establish a docker based deployment.
 
+### Roslyn: The unique magic of C#
+_[Issue #4: How Roslyn makes C# unreachable for other languages]_
 
-_[How Roslyn makes it unreachable for other languages]_
+### WebAssembly bright future 
+_[Issue #5: How C# is actively building its future with WebAssembly: Blazor, Xamarin.WebAssembly, Uno]_
 
-
-_[It's tight future with WebAssembly]_
-
-_[AI, IoT, Blazor, Xamarin.WebAssembly]_
+### AI and IoT future
+_[Issue #6: How C# is working in AI, IoT fields]_
 
 ## Risks
 This stack is completely new. Since .NET Core 2.0 it is mature enough to be used in production. But EntityFramework Core 2.2 lacks some features yet. Although we are using it in our production projects but it seems it will be completely mature somewhere in version 3.*.
