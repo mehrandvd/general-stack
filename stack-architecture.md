@@ -1,21 +1,32 @@
 # Architecture
 
-Micro-services? Monolithic?
+We suggest a semi-flexible architecture for the projects.
 
 ## Why this?
-We pick micro-service architecture because of its scalablity.
+
+_[Issue #10: Micro-services or Monolithic, which paradaigm?]_
+If we pick micro-service architecture, it is because of its scalability.
 We are NOT picking it because it allows us to use multiple stacks concurrently.
 In fact, **we are against technology diversity**.
 
-Architecture items:
-- Server-side
-- SQL database
+Instead of planning for a concerete architecture. We prefer to be a little flexible on it.
+
+Investigating various architectures, we defined a new concept called _**Architecture Item**_. 
+> Architecture items are like some _**pieces of puzzles**_ that we could layout them in different ways to meet our project needs.
+
+Currently we find these architecture items necssary to think about:
+- REST API end point
+- Relational database
 - NoSQL database
 - Message Bus
-- Rule Engine
-- Workflow
+- Distributed Cache
+- Job
 - Web Frontend
 - Mobile Frontend
+- Server to client messaging
+- Server-side rendering
+- Rule Engine
+- Workflow
 
 ## Risks
-_[What are the risks?]_
+Having the concept of architecture items, brings the **risk of picking the correct architecture items** for the projects. There might be a challange for the team for picking architecture items before each project. But we think it is necessary to have such discussion before each project and it helps to create a high quality solution.
