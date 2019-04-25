@@ -30,6 +30,10 @@ _[Issue #3: This table should be filled and referenced by TechEmpower website]_
 
 The more interesting point, is the fact that best performance benchmarks of .NET Core are achieved on _Linux_! So it is recommended to use Linux for server or establish a docker based deployment.
 
+### Easy to learn
+As C# is a modern language (designed after benchmarking lots of languages), it is well-formed in many aspects.
+Being a well-formed language, makes C# easy to learn. Most of the time, studying a C# book excites any student or developer. In CS Inernship program which we train C# developers, there are lots of interns coming from other languages like JavaScript, Java and Python. If you follow [#cs_internship on Twitter](https://twitter.com/hashtag/cs_internship) and [#cs_internship on LinkedIn](https://www.linkedin.com/feed/hashtag/?keywords=%23cs_internship) you can see how they are excited about learning C# and its fantastic features.
+
 ### Roslyn: The unique magic of C#
 _[Issue #4: How Roslyn makes C# unreachable for other languages]_
 
