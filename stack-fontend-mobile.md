@@ -6,9 +6,13 @@ For mobile frontend we suggest:
 
 
 ## Why this?
-_[Issue #9: Why on earth Xamarin is a good choice?]_
 
-Xamarin is a well formed and mature technology for mobile development. But to rely on it we need a good training process to train Xamarin developers.
+Xamarin is great when you prefer **_maintainability and performance_** over easiness. So it is not good for creating a prototype rapidly. It is useful when you want to create a fully commercial product. I have worked with some teams that they had their prototypes in Ionic and started to design their commercial product in Xamarin. In Xamarin everything is Native. All of the code is in C#, even the platform-specific codes. So you can reuse your code even in platform-specific parts. Additionally, as you are using a single IDE instead of dealing with lots of them (at least XCode and Android Studio), debugging experience will be much easier and enjoyable.
+
+So, we pick Xamarin because:
+- We prefer maintainability and performance over the easiness.
+- Being native helps a lot in some platform-specific situations.
+- Code re-usability is important for us (for all parts of the code, even the platform-specific parts).
 
 
 ## Risks
