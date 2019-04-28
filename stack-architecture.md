@@ -15,7 +15,7 @@ Investigating various architectures, we defined a new concept called _**Architec
 > Architecture items are like some _**pieces of puzzles**_ that we could layout them in different ways to meet our project needs.
 
 Currently we find these architecture items necessary to think about:
-- REST API endpoint
+- REST API endpoint (gRPC is still an option. But I'm not sure about its necessity!)
 - Relational database
 - NoSQL database
 - Message Bus
