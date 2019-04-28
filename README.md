@@ -4,16 +4,16 @@ This documentation is about to answer a specific question: Which stack to use fo
 * [Problem Definition](/problem-definition.md): What is the exact problem to solve?
 * [Overview](/stack-overview.md): Answer in brief is here!
 * [Methodology](/stack-methodology.md): How this document is structured?
-* [Architecture](/stack-architecture.md): What is the overal architecture?
+* [Architecture](/stack-architecture.md): What is the overall architecture?
 * [Backend](/stack-backend.md): What to use in backend?
 * [Database](/stack-database.md): What to use for database?
 * [Frontend Web](/stack-frontend-web.md): What to use for web?
 * [Frontend Mobile](/stack-frontend-mobile.md): What to use for mobile?
 
 # How to Contribute
-First you should study the [Problem Definition](/problem-definition.md) and understand the problem. Then study the [Overview](/stack-overview.md) of our soltion.
+First you should study the [Problem Definition](/problem-definition.md) and understand the problem. Then study the [Overview](/stack-overview.md) of our solution.
 If you 80% are agree with the solution, we can work to improve it. 
-If you agree with just a part of it, you can fork it for yourself and continute your fork.
+If you agree with just a part of it, you can fork it for yourself and continue your fork.
 
 You can contribute to this:
 

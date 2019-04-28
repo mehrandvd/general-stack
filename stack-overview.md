@@ -11,12 +11,12 @@ The proposed stack at a glance is:
 As you can see (at a glance!) we heavily invest on C# and .NET Core as we believe they have a brilliant future. C# is a very well-formed language that its new features inspire lots of other languages. Picking C# eases our adoption with _WebAssembly_ in the near future as there is lot of investments in integrating C# and WebAssembly right now.
 
 ## Architecture
-Instead of planning for a concerete architecture. We prefer to be a little flexible on it.
+Instead of planning for a concrete architecture. We prefer to be a little flexible on it.
 
 Investigating various architectures, we defined a new concept called _**Architecture Item**_. 
 
 ## Backend
-.NET Core is super fast! In fact faster than any commercial platform so far. To prove it, you can check TechEmpower result for its last 3 rounds. The results are unbelivable!
+.NET Core is super fast! In fact faster than any commercial platform so far. To prove it, you can check TechEmpower result for its last 3 rounds. The results are unbelievable!
 Using .NET Core enables the team to use C# as a language. If in some situations it is required to use a pure functional language, we can use F#.
 
 We prefer to deploy our server-side applications on linux, preferably on docker.
