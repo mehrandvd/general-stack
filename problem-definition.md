@@ -9,7 +9,7 @@ By stack, we mean:
  - Technologies
 
  This general stack is going to be used to develop all typical and general applications.
- It is obvious that in some situations, for some applicatoins with very specific requirements it is possible to customize the stack.
+ It is obvious that in some situations, for some applications with very specific requirements it is possible to customize the stack.
  But to stay focused on business, we try to keep the guidelines of general stack, unless it is revealed that the stack is not good for the situation, then will take the cost and will customize the stack.
 
  ## Situation
@@ -24,4 +24,4 @@ By stack, we mean:
    - Stack 2: Java, Raw (No spring or ...), Prime Faces, SQL Server
 
  - We will have about 50 projects which will be developed with this general stack.
- - Some of these applications will target organization staff (5000-10000) and some of them will target custumers (1,000,000-10,000,000)
+ - Some of these applications will target organization staff (5000-10000) and some of them will target customers (1,000,000-10,000,000)
