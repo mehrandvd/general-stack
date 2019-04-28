@@ -20,6 +20,7 @@ In terms of performance there is no modern framework can compete with .NET Core.
 Although it is the fastest now, but it is not the most interesting point about it. The interesting point about it is its **performance growth** in recent years. You can watch how it goes up in the TechEmpower rankings in the recent rounds:
 
 _[Issue #3: This table should be filled and referenced by TechEmpower website]_
+
 |Best Rank|.NET Core|Node|Java|Go|
 |-|-|-|-|-|
 |Round 16|-|-|-|-|
