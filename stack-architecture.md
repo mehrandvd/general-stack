@@ -30,3 +30,4 @@ Currently we find these architecture items necessary to think about:
 
 ## Risks
 Having the concept of architecture items, brings the **risk of picking the correct architecture items** for the projects. There might be a challenge for the team for picking architecture items before each project. But we think it is necessary to have such discussion before each project and it helps to create a high quality solution.
+-
