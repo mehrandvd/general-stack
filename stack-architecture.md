@@ -5,6 +5,7 @@ We suggest a semi-flexible architecture for the projects.
 ## Why this?
 
 _[Issue #10: Micro-services or Monolithic, which paradigm?]_
+
 If we pick micro-service architecture, it is because of its scalability.
 We are NOT picking it because it allows us to use multiple stacks concurrently.
 In fact, **we are against technology diversity**.
